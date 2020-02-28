@@ -1,0 +1,7 @@
+<ul class="countriesUl">
+    <li><input ng-model="search" type="text"></li>
+    <hr>
+    <li ng-repeat="country in $ctrl.countries | filter:search" ng-click="$ctrl.print(country.name)">
+        <span>{{country.flag}}</span> {{country.name}}
+    </li>
+</ul>
