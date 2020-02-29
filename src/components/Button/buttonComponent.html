@@ -1,0 +1,12 @@
+<div>
+    <button
+        ng-click="$ctrl.toogle()"
+        ng-init="$ctrl.setList()"
+        ng-bind="$ctrl.text"
+        class="btn btn-normal">
+    </button>
+
+    <div style="display: {{$ctrl.display}}">
+        <countries-list countries="$ctrl.countries"></countries-list>
+    </div>
+</div>
