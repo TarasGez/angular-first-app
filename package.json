@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "deploy": "webpack --mode production --output-path docs",
+    "deploy": "webpack --mode development --output-path docs",
     "watch": "webpack --mode development --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
