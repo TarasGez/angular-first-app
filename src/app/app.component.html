@@ -1,0 +1,16 @@
+<header>
+    <country-select-button
+        buttonId="list0"
+        buttonText="First Countries List"
+        [countriesArray]="countriesArray"
+        (onToggle)="onToggle($event)"
+        >
+    </country-select-button>
+
+    <country-select-button
+        buttonId="list1"
+        buttonText="Second Countries List"
+        [countriesArray]="countriesArray"
+        >
+    </country-select-button>
+</header>
